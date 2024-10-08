@@ -4,16 +4,11 @@ import openai
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 
-# Initialize Flask app and allow CORS
 app = Flask(__name__)
-CORS(app)  # Allow all origins for testing
-# allowed_origins = ["http://localhost:3000"]
-# CORS(app, supports_credentials=True, origins=allowed_origins)
+CORS(app)  
 
-# OpenAI API key
 api_key = os.getenv('OPENAI_API_KEY')
 if not api_key:
     raise ValueError("API Key not found. Ensure the .env file contains 'OPENAI_API_KEY'.")

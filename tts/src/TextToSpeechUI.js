@@ -4,7 +4,7 @@ import './TextToSpeechUI.css';
 function TextToSpeechUI({ text, handleTextChange, handleConvert, loading, audioSrc, selectedVoice, handleVoiceChange }) {
   return (
     <div>
-      <h1>Text-to-Speech Converter</h1>
+      <h1>Text-to-Speech Generator</h1>
       
       <textarea
         value={text}

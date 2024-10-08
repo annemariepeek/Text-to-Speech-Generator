@@ -27,7 +27,6 @@ function TextToSpeech() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          // 'Access-Control-Allow-Origin': '*',
         },
         body: JSON.stringify({ text, voice: selectedVoice }), 
         

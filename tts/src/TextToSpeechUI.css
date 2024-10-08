@@ -12,20 +12,7 @@ textarea {
     border-radius: 5px;
     background-color: transparent;
   }
-  
-  /* button {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
-  }
-  
-  button:disabled {
-    background-color: gray;
-    cursor: not-allowed;
-  } */
+
 
   audio {
       color: blue;
@@ -58,8 +45,8 @@ button {
   }
   
   .button-item .button-bg {
-    border-color: #113f67; 
-    background-color: #113f67; 
+    border-color: lightskyblue; 
+    background-color: lightskyblue; 
   }
   
   .button-inner,
@@ -119,7 +106,7 @@ button {
   }
   
   .button-bg-layer.-purple {
-    background-color: #38598b; 
+    background-color: lightskyblue; 
   }
   
   .button-bg-layer.-turquoise {
